@@ -54,6 +54,14 @@
 		550AB43221FCB79C00E8DE08 /* TDSwiftAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
+				550AB44521FCB7A500E8DE08 /* Demo */,
+			);
+			path = TDSwiftAlertViewController;
+			sourceTree = "<group>";
+		};
+		550AB44521FCB7A500E8DE08 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
 				550AB43321FCB79C00E8DE08 /* AppDelegate.swift */,
 				550AB43521FCB79C00E8DE08 /* ViewController.swift */,
 				550AB43721FCB79C00E8DE08 /* Main.storyboard */,
@@ -61,7 +69,7 @@
 				550AB43C21FCB79D00E8DE08 /* LaunchScreen.storyboard */,
 				550AB43F21FCB79D00E8DE08 /* Info.plist */,
 			);
-			path = TDSwiftAlertViewController;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TDSwiftAlertViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TDSwiftAlertViewController/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TDSwiftAlertViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TDSwiftAlertViewController/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
