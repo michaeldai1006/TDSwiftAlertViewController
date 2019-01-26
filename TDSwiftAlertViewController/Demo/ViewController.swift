@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let alertVC = UIViewController(nibName: String(describing: TDSwiftAlertViewController.self), bundle: nil)
+        self.present(alertVC, animated: true, completion: nil)
     }
-
-
 }
 

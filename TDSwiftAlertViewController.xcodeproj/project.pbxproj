@@ -12,6 +12,10 @@
 		550AB43921FCB79C00E8DE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550AB43721FCB79C00E8DE08 /* Main.storyboard */; };
 		550AB43B21FCB79D00E8DE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550AB43A21FCB79D00E8DE08 /* Assets.xcassets */; };
 		550AB43E21FCB79D00E8DE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550AB43C21FCB79D00E8DE08 /* LaunchScreen.storyboard */; };
+		550AB44721FCB8F400E8DE08 /* TDSwiftAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550AB44621FCB8F400E8DE08 /* TDSwiftAlertViewController.swift */; };
+		550AB45021FCCF9900E8DE08 /* TDSwiftAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550AB44F21FCCF9900E8DE08 /* TDSwiftAlertView.swift */; };
+		550AB45221FCCFA300E8DE08 /* TDSwiftAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550AB45121FCCFA300E8DE08 /* TDSwiftAlertView.xib */; };
+		550AB45421FCCFF700E8DE08 /* TDAnimateBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550AB45321FCCFF700E8DE08 /* TDAnimateBackgroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		550AB43A21FCB79D00E8DE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550AB43D21FCB79D00E8DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550AB43F21FCB79D00E8DE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550AB44621FCB8F400E8DE08 /* TDSwiftAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSwiftAlertViewController.swift; sourceTree = "<group>"; };
+		550AB44F21FCCF9900E8DE08 /* TDSwiftAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSwiftAlertView.swift; sourceTree = "<group>"; };
+		550AB45121FCCFA300E8DE08 /* TDSwiftAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TDSwiftAlertView.xib; sourceTree = "<group>"; };
+		550AB45321FCCFF700E8DE08 /* TDAnimateBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDAnimateBackgroundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				550AB44521FCB7A500E8DE08 /* Demo */,
+				550AB44821FCB98600E8DE08 /* TDSwiftAlertViewController */,
 			);
 			path = TDSwiftAlertViewController;
 			sourceTree = "<group>";
@@ -70,6 +79,17 @@
 				550AB43F21FCB79D00E8DE08 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		550AB44821FCB98600E8DE08 /* TDSwiftAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				550AB44621FCB8F400E8DE08 /* TDSwiftAlertViewController.swift */,
+				550AB44F21FCCF9900E8DE08 /* TDSwiftAlertView.swift */,
+				550AB45121FCCFA300E8DE08 /* TDSwiftAlertView.xib */,
+				550AB45321FCCFF700E8DE08 /* TDAnimateBackgroundViewController.swift */,
+			);
+			path = TDSwiftAlertViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550AB43E21FCB79D00E8DE08 /* LaunchScreen.storyboard in Resources */,
+				550AB45221FCCFA300E8DE08 /* TDSwiftAlertView.xib in Resources */,
 				550AB43B21FCB79D00E8DE08 /* Assets.xcassets in Resources */,
 				550AB43921FCB79C00E8DE08 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				550AB43621FCB79C00E8DE08 /* ViewController.swift in Sources */,
+				550AB45021FCCF9900E8DE08 /* TDSwiftAlertView.swift in Sources */,
+				550AB45421FCCFF700E8DE08 /* TDAnimateBackgroundViewController.swift in Sources */,
+				550AB44721FCB8F400E8DE08 /* TDSwiftAlertViewController.swift in Sources */,
 				550AB43421FCB79C00E8DE08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
